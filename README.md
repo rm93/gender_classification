@@ -10,17 +10,14 @@ This is my first machine learning python script
 
 <h3>Dependencies</h3>
 
-<ul>
-<li>Scikit-learn (http://scikit-learn.org/stable/install.html)</li>
-</ul>
+* Pickle ```pip install pickle```
+* [Scikit-learn](http://scikit-learn.org/) ```pip install -U scikit-learn```
 
 Install missing dependencies using pip
 
 <h3>Usage</h3>
 
-Once you have your dependencies installed via pip, run the script in terminal via
+Once you have your dependencies installed via pip, run the script in terminal:
 
-```
-python predictor.py
-```
-
+1. Run ```python learning.py``` to train the model.
+2. Once trained you can test the model via ```python predictor.py```. It will output either male or female.
